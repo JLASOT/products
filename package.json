@@ -1,0 +1,22 @@
+{
+  "name": "service2",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch ./index.js",
+    "start": "pm2 start ./index.js --name service2"
+  },
+  "author": "Service2",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "pm2": "^6.0.8",
+    "sequelize": "^6.37.7",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
